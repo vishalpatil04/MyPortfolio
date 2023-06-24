@@ -16,16 +16,12 @@ const About = () => {
         <p className="mt-8 text-base text-justify leading-8">
           Junior React Developer having 1.5 years of experience with proficient
           knowledge of entire software development life cycle and expertise in
-          ReactJS.<br/> I have Good knowledge of using HTM, CSS and JavaScript to design
-          user interface and deploy it effectively in applications. Also holding the experience
+          ReactJS. I have Good knowledge of using HTM, CSS and JavaScript to design
+          user interface and deploy it effectively in applications.<br/> Also holding the experience
           in designing and implementing responsive user interface components by
-          deploying React concepts. <br/> Proficient in translating designs into high
+          deploying React concepts. Proficient in translating designs into high
           quality code and writing application interface code using effective
-          JavaScript and ReactJS workflows.
-        </p>
-        <br />
-
-        <p className="text-base text-justify">
+          JavaScript and ReactJS workflows. <br/>
           Good Knowledge of OOPS Concepts. Experience in involving client
           meetings, good understanding in requirement gathering & discussions.
           Experience in troubleshooting and debugging. Experience on version
