@@ -1,6 +1,7 @@
 import React from "react";
-import HeroImage from "../assets/Vishal.jpg";
+import HeroImage from "../assets/vishu.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import { Link } from "react-scroll";
 
 const Home = () => {
   return (
@@ -13,27 +14,27 @@ const Home = () => {
       items-center justify-center  px-4  md:flex-row">
         <div className="flex flex-col justify-centerc h-full">
           <h2 className="text-4xl sm:text-7xl
-          font-bold text-white">I'm React Developer.</h2>
+          font-bold text-white">Hii <br/>I'm Vishal, React Developer.</h2>
           <p className="text-gray-400 py-5 max-w-md">
             I have 1.5 years of experience designing web applications. I love to
             work on Web Applications using technologies like HTML, CSS, JS,
             React, Bootstrap, Tailwind, etc.
           </p>
           <div>
-            <button className="group text-white w-fit px-5 py-2 my-2 flex 
+            <Link to="portfolio" smooth duration={500} className="group text-white w-fit px-5 py-2 my-2 flex 
             items-center rounded-md bg-gradient-to-r
             from-orange-400 to-orange-700 cursor-pointer ">
               Portfolio
               <span className="group-hover:rotate-90 duration-200">
                 <MdOutlineKeyboardArrowRight size={25} className="ml-1"/>
               </span>
-            </button>
+            </Link>
           </div>
         </div>
         <div className="px-2 mt-10">
           <img src={HeroImage}
           alt="My Profile"
-          className="mx-auto  rounded-3xl h-auto max-w-sm md:w-full" />
+          className="mx-auto rounded-2xl max-w-xs" />
         </div>
       </div>
     </div>

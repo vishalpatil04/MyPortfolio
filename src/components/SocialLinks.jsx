@@ -47,10 +47,12 @@ const SocialLinks = () => {
   ];
 
   return (
-    <div className="flex flex-col top-[35%] left-0 fixed ">
+    <div className="hidden lg:flex flex-col top-[35%] left-0 fixed ">
       <ul>
         {links.map(({id, child, href, style, download}) => (
+          
           <li key={id}
+          // eslint-disable-next-line
             className={"flex justify-between items-center w-40 h-14 px-4 ml-[-100px] bg-gradient-to-r from-gray-400 to-gray-700 hover:ml-[-5%] hover:rounded-md duration-300" + " " + style}
           >
             <a
@@ -58,6 +60,7 @@ const SocialLinks = () => {
               className="flex justify-between items-center w-full text-white "
               download={download}
               target='_blank'
+              rel="noreferrer"
             >
             {child}
             </a>
