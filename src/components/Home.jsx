@@ -13,8 +13,8 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col
       items-center justify-center  px-4  md:flex-row">
         <div className="flex flex-col justify-centerc h-full">
-          <h2 className="text-4xl sm:text-7xl
-          font-bold text-white">Hii <br/>I'm Vishal, React Developer.</h2>
+          <h2 className="text-4xl sm:text-6xl
+          font-bold text-white">Hello <br/>I'm Vishal, <br/>React Developer.</h2>
           <p className="text-gray-400 py-5 max-w-md">
             I have 1.5 years of experience designing web applications. I love to
             work on Web Applications using technologies like HTML, CSS, JS,
