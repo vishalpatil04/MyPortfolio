@@ -6,6 +6,7 @@ import REACT from "../assets/react.png";
 import BOOTSTRAP from "../assets/bootstrap.png";
 import TAILWIND from "../assets/tailwind.png";
 import GITHUB from "../assets/github.png";
+import POSTMAN from '../assets/postman.png'
 
 const Experience = () => {
   const imgs = [
@@ -13,7 +14,7 @@ const Experience = () => {
       id: 1,
       src: HTML,
       titleName: "HTML",
-      style: 'shadow-orange-500'
+      style: 'shadow-orange-700'
     },
     {
       id: 2,
@@ -50,6 +51,12 @@ const Experience = () => {
       src: GITHUB,
       titleName: "GITHUB",
       style: 'shadow-gray-400'
+    },
+    {
+      id: 8,
+      src: POSTMAN,
+      titleName: "POSTMAN",
+      style: 'shadow-orange-500'
     },
   ];
 
