@@ -1,6 +1,8 @@
 import React from "react";
 import {useFormik} from 'formik';
 import {contactSchema} from "../schemas/schema.jsx"
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
 
@@ -26,7 +28,7 @@ const {handleChange, handleBlur, handleSubmit, touched, errors, values} = useFor
 
       if (response.ok) {
         // Form submission successful
-        alert("Form submitted successfully.")
+        toast.success("Form submitted successfully");
         action.resetForm();
       } else {
         // Form submission failed
@@ -44,6 +46,7 @@ const {handleChange, handleBlur, handleSubmit, touched, errors, values} = useFor
       name="contact"
       className="bg-gradient-to-b pt-20 from-black to-gray-800 text-white md:min-h-screen"
     >
+       <ToastContainer />
       <div className="max-w-screen-lg p-4  mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
             <p className="text-4xl font-bold inline border-b-4 border-gray-500">Contact</p>
